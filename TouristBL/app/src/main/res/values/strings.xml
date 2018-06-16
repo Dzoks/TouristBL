@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TouristBL</string>
+    <string name="menu_item_news">Novosti</string>
+    <string name="menu_item_events">Događaji</string>
+    <string name="menu_item_map">Mapa</string>
+    <string name="menu_item_settings">Podešavanja</string>
+    <string name="news_url">http://dtp.nezavisne.com/app/rubrika/11/1/20</string>
+    <string name="news_details_url">http://dtp.nezavisne.com/app/v2/vijesti/</string>
 </resources>
