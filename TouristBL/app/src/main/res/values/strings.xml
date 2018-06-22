@@ -4,6 +4,12 @@
     <string name="menu_item_events">Događaji</string>
     <string name="menu_item_map">Mapa</string>
     <string name="menu_item_settings">Podešavanja</string>
-    <string name="news_url">http://dtp.nezavisne.com/app/rubrika/11/1/20</string>
+    <string name="news_url">http://dtp.nezavisne.com/app/rubrika/11/</string>
     <string name="news_details_url">http://dtp.nezavisne.com/app/v2/vijesti/</string>
+    <string name="menu_item_weather">Vremenska prognoza</string>
+    <string name="city_name">Banja Luka</string>
+    <string name="google_maps_key">AIzaSyAynXOnFA4eqt9iPrSh9NyxoD_J_CD9RJU</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

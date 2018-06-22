@@ -9,4 +9,5 @@
 
     <color name="colorPrimaryTextDefaultMaterialDark">#FFFFFFFF</color>
     <color name="colorSecondaryTextDefaultMaterialDark">#B3FFFFFF</color>
+    <color name="pink500">#e91e63</color>
 </resources>
