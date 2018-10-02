@@ -1,5 +1,6 @@
 package org.unibl.etf.mr.touristbl;
 
+import android.arch.persistence.room.Room;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentManager;
@@ -17,8 +18,11 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
     private Toolbar mToolbar;
     private NavigationView mNavigationView;
+    private EntryDB database;
 
-
+    public EntryDB getDatabase() {
+        return database;
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -37,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
         mToolbar=findViewById(R.id.toolbar);
         mDrawerLayout=findViewById(R.id.drawer_layout);
         mNavigationView=findViewById(R.id.nav_view);
+        database=Room.databaseBuilder(getApplicationContext(),
+                EntryDB.class, "database").build();
         setSupportActionBar(mToolbar);
         ActionBar actionBar=getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);

@@ -36,6 +36,13 @@ public class HomeFragment extends Fragment {
 
             }
         });
+        view.findViewById(R.id.home_event).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                fragmentManager.beginTransaction().replace(R.id.frame_container,new EventFragment()).addToBackStack(null).commit();
+
+            }
+        });
         return view;
     }
 }

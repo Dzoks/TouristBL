@@ -43,14 +43,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
     public void onBindViewHolder(@NonNull NewsViewHolder holder, final int position) {
 
         holder.primaryText.setText(newsList.get(position).getTitle());
-        holder.favoriteButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                System.out.println("IDEMOO"+position);
 
-
-            }
-        });
         holder.mediaImage.getRootView().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -76,13 +69,11 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
 
         TextView primaryText;
         ImageView mediaImage;
-        ToggleButton favoriteButton;
 
         NewsViewHolder(View itemView) {
             super(itemView);
             primaryText = (TextView) itemView.findViewById(R.id.primary_text);
             mediaImage = (ImageView) itemView.findViewById(R.id.media_image);
-            favoriteButton=(ToggleButton) itemView.findViewById(R.id.button_favorite);
 
 
         }

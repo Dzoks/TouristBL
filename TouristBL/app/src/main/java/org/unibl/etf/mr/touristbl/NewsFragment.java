@@ -92,6 +92,7 @@ public class NewsFragment extends Fragment {
         @Override
         protected Void doInBackground(Integer... length) {
             try {
+
                 String json=Utility.readJsonFromUrl(getString(R.string.news_url)+length[0]+"/"+length[1]);
                 Gson gson = new Gson();
                 newsArrayList.addAll(Arrays.asList(gson.fromJson(json,News[].class)));
