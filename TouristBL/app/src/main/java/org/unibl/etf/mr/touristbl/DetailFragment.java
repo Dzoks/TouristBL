@@ -40,7 +40,7 @@ public class DetailFragment extends Fragment {
         entry=(Entry) getArguments().get("entry");
         detailsPhoto.setImageDrawable(getResources().getDrawable(R.drawable.demo));
         detailsTitle.setText(entry.getTitle());
-        detailsFull.loadData(entry.getDescription(),"text/plain","utf-8");
+        detailsFull.loadData(entry.getDescription(),"text/html","utf-8");
 
         return view;
     }

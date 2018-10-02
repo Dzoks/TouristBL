@@ -68,6 +68,11 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.nav_map:
                         fragmentManager.beginTransaction().replace(R.id.frame_container,new MapFragment()).addToBackStack(null).commit();
+                        break;
+                    case R.id.nav_events:
+                        fragmentManager.beginTransaction()
+                                .replace(R.id.frame_container, new EventFragment()).addToBackStack(null).commit();
+                        break;
                 }
 
                 mDrawerLayout.closeDrawers();
