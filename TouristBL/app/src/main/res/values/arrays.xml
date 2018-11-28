@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="langEntries">
+        <item>English</item>
+        <item>Srpski</item>
+    </string-array>
+    <string-array name="langValues">
+        <item>en</item>
+        <item>sr</item>
+    </string-array>
+</resources>

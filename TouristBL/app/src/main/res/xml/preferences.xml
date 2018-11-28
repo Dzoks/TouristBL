@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="cache_switch"
+        android:title="@string/cache_option" />
+    <ListPreference
+        android:defaultValue="en"
+        android:key="language_list"
+        android:title="@string/language"
+        android:entries="@array/langEntries"
+        android:entryValues="@array/langValues" />
+</PreferenceScreen>

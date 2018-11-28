@@ -23,12 +23,12 @@
             android:layout_marginTop="16dp"
             android:layout_marginLeft="12dp"
             android:layout_marginBottom="16dp"
-            android:text="Tekst"
+            android:paddingBottom="18dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
             app:layout_constraintTop_toBottomOf="@id/media_image"
             app:layout_constraintStart_toStartOf="parent"
-            />
+            android:layout_marginStart="12dp" />
 
 
         <ImageView
@@ -37,11 +37,12 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
-            app:srcCompat="@android:color/darker_gray"
             android:src="@mipmap/ic_launcher"
-            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-             />
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:color/darker_gray"
+
+            />
     </android.support.constraint.ConstraintLayout>
 
 </android.support.v7.widget.CardView>

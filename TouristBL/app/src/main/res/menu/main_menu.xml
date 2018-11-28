@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_item_home"
+            android:icon="@drawable/ic_wb_home" />
+        <item
             android:id="@+id/nav_news"
+            android:icon="@drawable/ic_wb_news"
             android:title="@string/menu_item_news" />
         <item
+            android:id="@+id/nav_institutions"
+            android:icon="@drawable/ic_wb_institution"
+            android:title="@string/menu_item_institutions" />
+
+        <item
+            android:id="@+id/nav_sightsee"
+            android:icon="@drawable/ic_wb_sightsee"
+
+            android:title="@string/menu_item_sightsee" />
+        <item
+            android:id="@+id/nav_hotels"
+            android:icon="@drawable/ic_wb_hotel"
+            android:title="@string/menu_item_hotels" />
+
+        <item
             android:id="@+id/nav_events"
+            android:icon="@drawable/ic_wb_event"
             android:title="@string/menu_item_events" />
         <item
-            android:id="@+id/nav_map"
-            android:title="@string/menu_item_map" />
-        <item
             android:id="@+id/nav_weather"
+            android:icon="@drawable/ic_wb_weather"
             android:title="@string/menu_item_weather" />
         <item
-            android:id="@+id/nav_settings"
-            android:title="@string/menu_item_settings" />
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_button_map"
+            android:title="@string/menu_item_map" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_wb_favorite"
+            android:title="@string/menu_item_fav" />
     </group>
 
 </menu>

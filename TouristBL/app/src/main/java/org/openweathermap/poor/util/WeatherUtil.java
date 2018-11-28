@@ -17,8 +17,6 @@ public class WeatherUtil {
 
     private String apiKey;
     private String locale;
-    public static final String LANG_ENGLISH="en";
-    public static final String LANG_SERBIAN="hr";
     private static final String CURRENT_QUERY="http://api.openweathermap.org/data/2.5/weather?q=";
     private static  final String FORECAST_QUERY="http://api.openweathermap.org/data/2.5/forecast?q=";
     public WeatherUtil(String apiKey,String locale ){

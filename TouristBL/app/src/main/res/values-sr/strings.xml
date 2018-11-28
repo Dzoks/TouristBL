@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TouristBL</string>
+    <string name="menu_item_news">Novosti</string>
+    <string name="menu_item_events">Događaji</string>
+    <string name="menu_item_map">Mapa</string>
+    <string name="menu_item_settings">Podešavanja</string>
+    <string name="news_url">http://dtp.nezavisne.com/app/rubrika/11/</string>
+    <string name="news_details_url">http://dtp.nezavisne.com/app/v2/vijesti/</string>
+    <string name="menu_item_weather">Vremenska prognoza</string>
+    <string name="city_name">Banja Luka</string>
+    <string name="google_maps_key">AIzaSyCJhMPtkesS3BY1kV3jkJpPoRUYkxBq5is</string>
+    <string name="action_settings">Podešavanja</string>
+    <string name="menu_item_hotels">Hoteli</string>
+    <string name="menu_item_institutions">Institucije</string>
+    <string name="menu_item_sightsee">Znamenitosti</string>
+    <string name="title_activity_maps_fragment">Mapa</string>
+    <string name="title_activity_settings">Podešavanja</string>
+    <string name="cache_option">Keširanje vijesti</string>
+    <string name="settings">Podešavanja</string>
+    <string name="language">Jezik</string>
+    <string name="menu_item_fav">Omiljeno</string>
+    <string name="loading">Učitavanje…</string>
+    <string name="weather_lang">hr</string>
+    <string name="menu_item_home">Početna</string>
+
+</resources>
