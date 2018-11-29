@@ -111,7 +111,7 @@ public class DetailAdapter extends RecyclerView.Adapter<DetailAdapter.DetailView
                         .replace(R.id.frame_container,fragment ).addToBackStack(null).commit();
             }
         });
-        holder.image.setImageDrawable(activity.getResources().getDrawable(R.drawable.demo));
+        holder.image.setImageDrawable(activity.getResources().getDrawable(entry.getImage()));
     }
 
     public void removeItem(int position) {

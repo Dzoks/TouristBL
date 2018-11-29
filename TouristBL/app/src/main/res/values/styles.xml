@@ -9,12 +9,16 @@
         <item name="android:statusBarColor">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorPrimaryLight</item>
 
-        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
 
     </style>
     <style name="SearchTheme" parent="AppTheme">
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="PreferenceTheme" parent="@style/PreferenceThemeOverlay">
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >

@@ -45,7 +45,7 @@ public class DetailFragment extends Fragment {
         btnFavorite=view.findViewById(R.id.button_favorite);
         btnMap=view.findViewById(R.id.button_see_map);
         entry=(Entry) getArguments().get("entry");
-        detailsPhoto.setImageDrawable(getResources().getDrawable(R.drawable.demo));
+        detailsPhoto.setImageDrawable(getResources().getDrawable(entry.getImage()));
         btnFavorite.setChecked(entry.isFavorite());
         detailsTitle.setText(entry.getTitle());
         detailsFull.loadData(entry.getDescription(),"text/html","utf-8");
