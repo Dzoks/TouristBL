@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="192dp"
-    android:background="@color/colorPrimaryLight"
+    android:layout_height="200dp"
+    android:background="@color/colorPrimary"
     android:padding="16dp"
     android:orientation="vertical"
     android:gravity="bottom">
 
+    <ImageView
+        android:layout_width="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:layout_height="100dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tourist BL"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+        android:layout_gravity="center_horizontal"
+        android:fontFamily=""
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="@string/sidebar_text"
+        />
+
 
 </LinearLayout>

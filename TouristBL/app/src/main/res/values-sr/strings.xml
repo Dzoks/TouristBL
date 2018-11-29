@@ -22,5 +22,6 @@
     <string name="loading">Učitavanje…</string>
     <string name="weather_lang">hr</string>
     <string name="menu_item_home">Početna</string>
+    <string name="sidebar_text">Turistički vodič Banja Luka</string>
 
 </resources>

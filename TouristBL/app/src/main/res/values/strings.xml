@@ -21,6 +21,7 @@
     <string name="menu_item_fav">Favorites</string>
     <string name="loading">Loading…</string>
     <string name="weather_lang">en</string>
+    <string name="sidebar_text">Banja Luka Tourist guide</string>
 
     <string name="menu_item_home">Home</string>
 </resources>
